@@ -1,0 +1,42 @@
+{
+  "name": "atlassian-twg-cli",
+  "displayName": "Atlassian Teamwork Graph CLI",
+  "version": "1.0.14",
+  "description": "Teamwork Graph CLI is Atlassian's agent-first interface to your entire work context: Jira issues, Confluence pages, Bitbucket PRs, along with your connected third-party data sources. Purpose-built for coding agents like Antigravity (terminal or desktop), and powered by Atlassian's context graph. Try: \"draft a Jira issue from this PR and link it to the epic.\" Run /twg-setup after install to connect Atlassian Teamwork Graph CLI to Antigravity.",
+  "logo": "./assets/twg-logo.png",
+  "suggestedPrompts": [
+    "Help me implement [JIRA-123]. Retrieve the requirements, acceptance criteria, and linked design decisions. Inspect this repository and propose an implementation plan before changing code.",
+    "Investigate [JIRA-123] in this repository. Find related bugs, previous fixes, and relevant technical decisions. Recommend a fix and the tests needed to verify it.",
+    "Review my current changes against [JIRA-123] and its linked specification. Flag missed requirements, conflicting decisions, and missing tests."
+  ],
+  "keywords": [
+    "atlassian",
+    "twg",
+    "teamwork graph",
+    "teamwork graph cli",
+    "jira",
+    "confluence",
+    "bitbucket",
+    "jsm",
+    "jira service management",
+    "assets",
+    "teams",
+    "goals",
+    "projects",
+    "loom",
+    "trello",
+    "rovo",
+    "cli",
+    "atlassian context"
+  ],
+  "author": {
+    "name": "Atlassian",
+    "url": "https://www.atlassian.com"
+  },
+  "homepage": "https://developer.atlassian.com/cloud/twg-cli/",
+  "repository": "https://github.com/atlassian-labs/twg-plugins",
+  "license": "Apache-2.0",
+  "skills": [
+    "./antigravity/skills"
+  ]
+}
